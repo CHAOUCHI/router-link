@@ -5,6 +5,7 @@ const Image = require('./image.ts');
 const Audio = require('./audio.ts');
 const Video = require('./video.ts');
 const Comment = require('./comment.ts');
+const Guide_Category = require('./guide_category.ts');
 
 //MANY TO MANY
 //Une catégorie appartient à un ou plusieurs guides
@@ -51,5 +52,6 @@ module.exports = {
   Image,
   Audio,
   Video,
-  Comment
+  Comment,
+  Guide_Category
 };
