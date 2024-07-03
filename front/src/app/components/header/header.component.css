@@ -1,0 +1,47 @@
+.header {
+    display: grid;
+    grid-template-columns: 0.7fr 8fr;
+    background-image: url("../../../../public/assets/black.jpg");
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+.header .logo {
+    width: 100%;
+}
+
+a {
+
+    text-decoration: none;
+    color: #F6E9A6;
+    font-size: 20px;
+    transition: 0.7s;
+
+}
+
+.header-hover:hover {
+
+    color: #00ff99;
+}
+
+.signup-button:hover {
+    background-color: #00ff99;
+}
+
+.signup-button {
+
+    background-color: #F6E9A6;
+    color: black;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.header-button {
+    color: black;
+}
